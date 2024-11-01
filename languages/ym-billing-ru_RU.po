@@ -1,0 +1,136 @@
+# Copyright (C) 2017 Платёжка для WooCommerce
+# This file is distributed under the same license as the Платёжка для WooCommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Платёжка для WooCommerce 0.0.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ym-billing\n"
+"POT-Creation-Date: 2017-07-12 15:55:36+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: ym-billing-gateway.class.php:26
+msgid "Ym_Billing"
+msgstr "Платёжка"
+
+#: ym-billing-gateway.class.php:27
+msgid "Allows payments by Billing."
+msgstr "Позволяет проводить платежи через Платёжку"
+
+#: ym-billing-gateway.class.php:58
+msgid "Enable/Disable"
+msgstr "Включить/Выключить"
+
+#: ym-billing-gateway.class.php:60
+msgid "Activate payments via Billing"
+msgstr "Включить прием платежей через Платежку"
+
+#: ym-billing-gateway.class.php:64
+msgid "Title"
+msgstr "Заголовок"
+
+#: ym-billing-gateway.class.php:66
+msgid "This controls the title which the user sees during checkout."
+msgstr "Позволяет настроить заголовок, отображаемый пользователю при проведении платежа."
+
+#: ym-billing-gateway.class.php:67
+msgid "Billing (bank card, e-wallets)"
+msgstr "Платежка (банковские карты, кошелек)"
+
+#: ym-billing-gateway.class.php:71
+msgid "Description"
+msgstr "Описание"
+
+#: ym-billing-gateway.class.php:73
+msgid "Payment method description that the customer will see on your checkout."
+msgstr "Описание метода, которое увидит зказчик при проведении платежа."
+
+#: ym-billing-gateway.class.php:78
+msgid "Billing's identifier"
+msgstr "ID формы"
+
+#: ym-billing-gateway.class.php:83
+msgid "Payment purpose"
+msgstr "Назначение платежа"
+
+#: ym-billing-gateway.class.php:85
+msgid "Order No. %order_is% Payment via Billing"
+msgstr "Номер заказа %order_id% Оплата через Платежку"
+
+#: ym-billing-gateway.class.php:86
+msgid ""
+"Payment purpose is added to the payment order: specify whatever will help "
+"identify the order paid via Billing"
+msgstr ""
+"Назначение будет в платежном поручении: напишите в нем всё, что поможет отличить "
+"заказ, который оплатили через Платежку"
+
+#: ym-billing-gateway.class.php:90
+msgid "Order status"
+msgstr "Статус заказа"
+
+#: ym-billing-gateway.class.php:93
+msgid ""
+"Order status shows the payment result is unknown: you can only learn whether "
+"the client made payment or not from an email notification or in your bank"
+msgstr ""
+"Статус должен показать, что результат платежа неизвестен: заплатил клиент или "
+"нет, вы можете узнать только из уведомления на электронной почте или в своем банке"
+
+#: ym-billing-gateway.class.php:102
+msgid ""
+"This is a payment form for your site. It allows for accepting payments to "
+"your company account from cards and Yandex.Money e-wallets without a "
+"contract. To set it up, you need to provide the Billing identifier: "
+"we will send it via email after you create a form in construction kit."
+msgstr ""
+"Это платежная форма на ваш сайт. Позволяет принимать платежи на счет компании — "
+"с карт или из кошельков Яндекс.Денег, без договора. Для настройки нужен "
+"идентификатор Платежки: он придёт в письме, когда вы соберете форму в конструкторе."
+
+#: ym-billing-gateway.class.php:147
+msgid "Payer's full name"
+msgstr "ФИО плательщика "
+
+#: ym-billing-gateway.class.php:176
+msgid "Payer's full name is empty"
+msgstr "Не было указано имя плательщика"
+
+#: ym-billing-gateway.class.php:179
+msgid "Invalid payer's full name"
+msgstr "Укажите фамилию, имя и отчество плательщика"
+
+#: ym-billing-gateway.class.php:218
+msgid "Awaiting Billing payment"
+msgstr "Ожидание оплаты через Платёжку"
+
+#: ym-billing-gateway.class.php:210
+msgid "Pay order"
+msgstr "Оплатить заказ"
+
+#. Plugin Name of the plugin/theme
+msgid "Платёжка для WooCommerce"
+msgstr "Платёжка для WooCommerce"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/yandexkassa/"
+msgstr "https://wordpress.org/plugins/yandexkassa/"
+
+#. Description of the plugin/theme
+msgid ""
+"Платежный модуль для работы с сервисом Платёжка через плагин "
+"WooCommerce"
+msgstr ""
+"Платежный модуль для работы с сервисом Платёжка через плагин "
+"WooCommerce"
+
+#. Author of the plugin/theme
+msgid "Yandex.Money"
+msgstr "Яндекс.Деньги"
+
+#. Author URI of the plugin/theme
+msgid "http://kassa.yandex.ru"
+msgstr "http://kassa.yandex.ru"
